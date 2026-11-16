@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valterra Group — Sovereign Digital Solutions & Technology Agency</title>
+  <meta name="description" content="Valterra Group is an elite digital technology agency providing bespoke web platforms, performance marketing, sovereign AI automation, and enterprise consulting across South Africa and internationally.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Valterra Group — Enterprise Technology & Digital Solutions">
+  <meta property="og:description" content="Architecting the future of enterprise digital platforms, autonomous AI workflows, and strategic transformation.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Syne, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       NAVIGATION HEADER
+       ======================================================================== -->
+  <header class="nav-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-monogram">
+        <div class="brand-emblem">V</div>
+        <div>
+          <span style="font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: 0.04em;">VALTERRA</span>
+          <span style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--accent-gold); letter-spacing: 0.18em; display: block; margin-top: -2px;">GROUP</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#divisions" class="nav-link">Divisions</a></li>
+        <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+        <li><a href="#industries" class="nav-link">Industries</a></li>
+        <li><a href="#ai-scoper" class="nav-link" style="color: var(--accent-gold-light);">AI Scoper</a></li>
+        <li><a href="#contact" class="nav-link">Inquiries</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <div class="pill-status" style="display: none; @media(min-width: 1024px){ display: inline-flex; }">
+          <span class="pulse-dot"></span>
+          <span>JNB • CPT • LON</span>
+        </div>
+        <a href="#ai-scoper" class="btn btn-primary" style="padding: 0.6rem 1.25rem; font-size: 0.82rem;">
+          <span>Initialize Scope</span>
+        </a>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-menu">
+    <a href="#about">About Valterra</a>
+    <a href="#divisions">Divisions</a>
+    <a href="#case-studies">Case Studies</a>
+    <a href="#industries">Industries</a>
+    <a href="#ai-scoper" style="color: var(--accent-gold);">Strategic AI Scoper</a>
+    <a href="#contact">Contact & Inquiries</a>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section">
+      <div class="hero-grid-lines"></div>
+      <div class="container hero-content">
+        <div class="pill-status" style="margin-bottom: 1.5rem; background: rgba(216, 201, 163, 0.08); border-color: rgba(216, 201, 163, 0.25);">
+          <span style="color: var(--accent-gold); font-weight: 600;">ENTERPRISE DIGITAL AGENCY</span>
+          <span style="color: var(--border-medium);">|</span>
+          <span>SOUTH AFRICA & INTERNATIONAL</span>
+        </div>
+
+        <h1 class="hero-title">
+          Architecting the Future of <br>
+          <span class="text-metallic">Enterprise Technology.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Valterra Group unites high-calibre digital engineering, performance marketing, sovereign AI automation, and strategic advisory for ambitious organizations across the globe.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#ai-scoper" class="btn btn-primary">
+            <span>Launch Strategic AI Scoper</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#divisions" class="btn btn-secondary">
+            <span>Explore Group Divisions</span>
+          </a>
+        </div>
+
+        <!-- Key Enterprise Metrics -->
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <div class="metric-value">4</div>
+            <div class="metric-label">Autonomous Practices</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">99.98%</div>
+            <div class="metric-label">Cloudflare Edge SLA</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">&lt;45ms</div>
+            <div class="metric-label">Sub-Saharan TTFB</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-value">100%</div>
+            <div class="metric-label">Sovereign & POPIA Compliant</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         ABOUT SECTION
+         ======================================================================== -->
+    <section id="about" class="section" style="border-top: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 3.5rem; align-items: center;" class="lg-grid-2">
+          <div>
+            <div class="section-tag">Institutional Pedigree</div>
+            <h2 class="section-title">Rooted in African Innovation. <br><span class="text-metallic">Delivering Worldwide.</span></h2>
+            <p class="section-description" style="margin-bottom: 1.5rem;">
+              Valterra Group was founded on an exacting standard: that modern organizations require more than generic agency templates or fragmented contractors. We operate as an integrated technology collective combining bespoke software engineering, precision brand acceleration, and autonomous AI infrastructure.
+            </p>
+            <p class="section-description" style="margin-bottom: 2rem;">
+              With operational bases in Johannesburg, Cape Town, and international corridors in the United Kingdom, our multidisciplinary teams serve financial institutions, industrial operators, and high-growth digital enterprises.
+            </p>
+
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+              <div>
+                <div style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--accent-gold);">Zero Bloat</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Clean, edge-native architecture</div>
+              </div>
+              <div style="border-left: 1px solid var(--border-subtle); padding-left: 2rem;">
+                <div style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--accent-gold);">Sovereign AI</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Enterprise LLMs & automation</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel" style="padding: 2.5rem; border-color: rgba(216, 201, 163, 0.2);">
+            <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-gold); margin-bottom: 1rem; letter-spacing: 0.1em;">
+              // VALTERRA CHARTER
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 1.25rem; color: #FFF;">
+              The Three Tenets of Valterra Delivery
+            </h3>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+              <div style="display: flex; gap: 1rem;">
+                <div style="color: var(--accent-gold); font-family: var(--font-mono); font-weight: 600;">01</div>
+                <div>
+                  <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem;">Architectural Supremacy</h4>
+                  <p style="font-size: 0.88rem; color: var(--text-secondary);">We engineer systems for resilience, hyper-speed load times, and effortless scale on Cloudflare's global edge.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 1rem;">
+                <div style="color: var(--accent-gold); font-family: var(--font-mono); font-weight: 600;">02</div>
+                <div>
+                  <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem;">Measurable Capital Efficiency</h4>
+                  <p style="font-size: 0.88rem; color: var(--text-secondary);">Every campaign, digital platform, and automated agent is audited against bottom-line ROI and operational margin expansion.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 1rem;">
+                <div style="color: var(--accent-gold); font-family: var(--font-mono); font-weight: 600;">03</div>
+                <div>
+                  <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem;">Continuous Autonomous Evolution</h4>
+                  <p style="font-size: 0.88rem; color: var(--text-secondary);">We implement self-improving AI workflows that reduce human toil and free organizational capital for strategic growth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         DIVISIONS SECTION (BENTO GRID)
+         ======================================================================== -->
+    <section id="divisions" class="section">
+      <div class="container">
+        <div style="text-align: center; max-width: 720px; margin: 0 auto 3.5rem;">
+          <div class="section-tag" style="justify-content: center;">Unified Capabilities</div>
+          <h2 class="section-title">Four Specialised Divisions. <br><span class="text-metallic">One Singular Standard.</span></h2>
+          <p class="section-description" style="margin: 0 auto;">
+            Our structure delivers the deep domain expertise of a boutique practice with the scale, security, and velocity of an international technology group.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Division 1: Valterra Digital -->
+          <div class="card-metallic bento-card-7" style="padding: 2.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem;">
+              <span class="division-badge">DIVISION 01</span>
+              <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">DEV.ENGINEERING</span>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; margin-bottom: 0.75rem;">
+              Valterra Digital
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.75rem;">
+              Bespoke website design, mission-critical web applications, headless e-commerce platforms, and global cloud architectures engineered for speed, conversion, and longevity.
+            </p>
+            <ul class="division-feature-list">
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Ultra-high performance web portals & corporate flagships</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Cloudflare edge-native deployment (Workers & Pages)</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Headless CMS integrations & bespoke design systems</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Division 2: Valterra Marketing -->
+          <div class="card-metallic bento-card-5" style="padding: 2.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem;">
+              <span class="division-badge">DIVISION 02</span>
+              <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">GROWTH.ACQUISITION</span>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; margin-bottom: 0.75rem;">
+              Valterra Marketing
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.75rem;">
+              Data-backed brand positioning, high-intent performance marketing, content distribution engines, and digital authority building.
+            </p>
+            <ul class="division-feature-list">
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Full-funnel enterprise client acquisition</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Algorithmic SEO & digital PR for capital markets</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Premium corporate visual identity systems</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Division 3: Valterra AI -->
+          <div class="card-metallic bento-card-6" style="padding: 2.5rem; border-color: rgba(216, 201, 163, 0.35);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem;">
+              <span class="division-badge" style="background: rgba(216, 201, 163, 0.15);">DIVISION 03 • FLAGSHIP</span>
+              <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-gold);">GEMINI 4 READY</span>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; margin-bottom: 0.75rem;">
+              Valterra AI
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.75rem;">
+              Enterprise artificial intelligence, autonomous agentic workflows, custom LLM solutions, and automated process orchestration tailored to your business data.
+            </p>
+            <ul class="division-feature-list">
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Autonomous decision workflows with Google Gemini</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Intelligent document OCR, POPIA compliance & extraction</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Real-time predictive telemetry & analytics pipelines</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Division 4: Valterra Consulting -->
+          <div class="card-metallic bento-card-6" style="padding: 2.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem;">
+              <span class="division-badge">DIVISION 04</span>
+              <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">STRATEGY.ADVISORY</span>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 700; margin-bottom: 0.75rem;">
+              Valterra Consulting
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.75rem;">
+              Strategic technology roadmapping, enterprise cloud modernization, legacy decoupling, IT security audits, and digital transformation governance.
+            </p>
+            <ul class="division-feature-list">
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>C-Suite digital transformation roadmaps</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Enterprise architecture audits & cost rationalization</span>
+              </li>
+              <li class="division-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Cloud migration governance & cyber resiliency</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PORTFOLIO & CASE STUDIES
+         ======================================================================== -->
+    <section id="case-studies" class="section" style="background: rgba(10, 10, 14, 0.4); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; gap: 1.5rem;">
+          <div>
+            <div class="section-tag">Proven Impact</div>
+            <h2 class="section-title">Selected Case Studies. <br><span class="text-metallic">Tangible Results.</span></h2>
+          </div>
+          <p class="section-description" style="max-width: 480px; margin: 0;">
+            A representative selection of critical systems architected and scaled across our four core practices.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 2rem;" class="md-grid-3">
+          <!-- Case 1 -->
+          <div class="card-metallic case-study-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <span class="pill-status" style="font-size: 0.7rem;">FINANCIAL SERVICES</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">ZAR / GBP / USD</span>
+              </div>
+              <div class="case-study-metric">+340%</div>
+              <div style="font-size: 0.82rem; font-family: var(--font-mono); color: var(--accent-gold); text-transform: uppercase; margin-bottom: 1rem;">
+                Settlement Throughput Velocity
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 0.75rem;">
+                Pan-African Core Banking Modernization
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                Engineered an edge-native settlement gateway across 6 African currency corridors, replacing legacy core delays with real-time multi-tenant verification.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">
+              Practices: Digital • AI • Consulting
+            </div>
+          </div>
+
+          <!-- Case 2 -->
+          <div class="card-metallic case-study-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <span class="pill-status" style="font-size: 0.7rem;">MINING & RESOURCES</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">NORTHERN CAPE</span>
+              </div>
+              <div class="case-study-metric">-38%</div>
+              <div style="font-size: 0.82rem; font-family: var(--font-mono); color: var(--accent-gold); text-transform: uppercase; margin-bottom: 1rem;">
+                Equipment Maintenance Downtime
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 0.75rem;">
+                Autonomous Open-Cast Haulage Telemetry
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                Integrated satellite IoT streams with Gemini predictive agents to forecast hydraulic fatigue and automatically sequence dispatch maintenance.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">
+              Practices: Valterra AI • Consulting
+            </div>
+          </div>
+
+          <!-- Case 3 -->
+          <div class="card-metallic case-study-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <span class="pill-status" style="font-size: 0.7rem;">LUXURY & RETAIL</span>
+                <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">LONDON • JNB</span>
+              </div>
+              <div class="case-study-metric">+142%</div>
+              <div style="font-size: 0.82rem; font-family: var(--font-mono); color: var(--accent-gold); text-transform: uppercase; margin-bottom: 1rem;">
+                International Digital Revenue
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 0.75rem;">
+                Heritage Luxury Flagship Commerce
+              </h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                Architected a sub-second headless commerce experience with bespoke clienteling, algorithmic localization, and high-conversion VIP private viewing rooms.
+              </p>
+            </div>
+            <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-subtle); font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">
+              Practices: Digital • Marketing
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         INDUSTRIES WE SERVE
+         ======================================================================== -->
+    <section id="industries" class="section">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 3rem;">
+          <div class="section-tag" style="justify-content: center;">Sector Specialization</div>
+          <h2 class="section-title">Industries We Serve.</h2>
+          <p class="section-description" style="margin: 0 auto;">
+            Our practices are structured to solve high-complexity challenges where failure is not an option.
+          </p>
+        </div>
+
+        <div class="industries-grid">
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">FinTech & Banking</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary);">Cross-border rails, settlement systems & compliance</p>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Mining & Resources</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary);">Telemetry IoT, ESG reporting & dispatch AI</p>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Luxury & Retail</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary);">Headless flagships & international VIP funnels</p>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Healthcare & Labs</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary);">POPIA compliant diagnostic clinical automation</p>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem;">Supply Chain</h4>
+            <p style="font-size: 0.8rem; color: var(--text-secondary);">Multi-modal tracking & autonomous bills of lading</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         GEMINI API FEATURE: VALTERRA STRATEGIC AI SCOPER
+         ======================================================================== -->
+    <section id="ai-scoper" class="section" style="position: relative; overflow: hidden; background: radial-gradient(circle at 50% 0%, rgba(216, 201, 163, 0.05), transparent 70%);">
+      <div class="container">
+        <div class="scoper-container">
+          <div class="scoper-header">
+            <div>
+              <div class="pill-status" style="margin-bottom: 0.75rem; background: rgba(216, 201, 163, 0.1); border-color: rgba(216, 201, 163, 0.3);">
+                <span class="pulse-dot"></span>
+                <span>POWERED BY GOOGLE GEMINI 4 HYDROGEN</span>
+              </div>
+              <h2 style="font-family: var(--font-display); font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 700;">
+                Valterra Strategic AI Scoper
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.35rem;">
+                Experience Valterra AI live. Select your sector and define your operational bottleneck to generate an executive transformation blueprint.
+              </p>
+            </div>
+            <div class="pill-status" style="border-color: rgba(255, 255, 255, 0.15);">
+              <span>Edge Status: Active</span>
+            </div>
+          </div>
+
+          <form id="scoper-form">
+            <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;" class="md-grid-2">
+              <div class="form-group">
+                <label for="scoper-industry" class="form-label">Client Industry Sector</label>
+                <select id="scoper-industry" class="form-select" required>
+                  <option value="" disabled selected>Select your industry vertical...</option>
+                  <option value="FinTech & Banking">FinTech & Banking</option>
+                  <option value="Mining & Natural Resources">Mining & Natural Resources</option>
+                  <option value="Luxury & Global Retail">Luxury & Global Retail</option>
+                  <option value="Healthcare & Diagnostics">Healthcare & Diagnostics</option>
+                  <option value="Enterprise Logistics & Supply Chain">Enterprise Logistics & Supply Chain</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="scoper-division" class="form-label">Primary Practice Alignment</label>
+                <select id="scoper-division" class="form-select">
+                  <option value="Holistic Cross-Division Synergy">Holistic Cross-Division Synergy (Recommended)</option>
+                  <option value="Valterra Digital (Platforms & Web)">Valterra Digital (Platforms & Web)</option>
+                  <option value="Valterra Marketing (Growth & Positioning)">Valterra Marketing (Growth & Positioning)</option>
+                  <option value="Valterra AI (Agentic Automation)">Valterra AI (Agentic Automation)</option>
+                  <option value="Valterra Consulting (Enterprise Transformation)">Valterra Consulting (Enterprise Transformation)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="scoper-challenge" class="form-label">Primary Operational Challenge / Bottleneck</label>
+              <textarea id="scoper-challenge" class="form-textarea" placeholder="Describe the architectural friction, latency, or market constraint your business currently faces..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="scoper-ambition" class="form-label">Target Strategic Ambition / Key Milestone</label>
+              <input type="text" id="scoper-ambition" class="form-input" placeholder="e.g. Sub-second cross-border payments, 40% reduction in support toil, pan-African scale">
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.5rem;">
+              <button type="submit" id="scoper-submit-btn" class="btn btn-primary" style="padding: 0.9rem 2rem;">
+                <span>Synthesize Transformation Brief</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">
+                Estimated synthesis time: ~2.1 seconds
+              </span>
+            </div>
+          </form>
+
+          <!-- Interactive AI Console -->
+          <div id="scoper-output" class="scoper-console">
+            <div style="color: var(--text-muted); font-family: var(--font-mono); font-size: 0.85rem; display: flex; align-items: center; justify-content: center; height: 180px; text-align: center;">
+              Select your parameters and click "Synthesize Transformation Brief" to initiate the Gemini AI architectural evaluation.
+            </div>
+          </div>
+
+          <!-- Post-Generation Action Bar -->
+          <div id="scoper-actions" style="display: none; align-items: center; justify-content: flex-end; gap: 1rem; margin-top: 1.25rem;">
+            <button type="button" id="scoper-copy-btn" class="btn btn-secondary" style="padding: 0.6rem 1.25rem; font-size: 0.82rem;">
+              <span>Copy Brief</span>
+            </button>
+            <button type="button" id="scoper-transfer-btn" class="btn btn-gold" style="padding: 0.6rem 1.4rem; font-size: 0.82rem;">
+              <span>Transfer Scope to Executive Inquiry Form &darr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         CONTACT & EXECUTIVE ENQUIRY SECTION
+         ======================================================================== -->
+    <section id="contact" class="section" style="border-top: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr; gap: 4rem;" class="lg-grid-2">
+          <div>
+            <div class="section-tag">Direct Dialogue</div>
+            <h2 class="section-title">Initiate a Strategic Engagement.</h2>
+            <p class="section-description" style="margin-bottom: 2.5rem;">
+              We work with a select portfolio of enterprise partners. Submit your project requirements to schedule an executive consultation with our practice partners.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
+              <div>
+                <h4 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">
+                  // SOUTHERN AFRICA HEADQUARTERS
+                </h4>
+                <div style="color: #FFF; font-weight: 600; font-size: 1.05rem;">Sandton Central, Johannesburg</div>
+                <div style="color: var(--text-secondary); font-size: 0.9rem;">Gauteng, South Africa</div>
+                <div style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Also at: V&A Waterfront, Cape Town</div>
+              </div>
+
+              <div>
+                <h4 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">
+                  // INTERNATIONAL CORRIDORS
+                </h4>
+                <div style="color: #FFF; font-weight: 600; font-size: 1.05rem;">Mayfair, London</div>
+                <div style="color: var(--text-secondary); font-size: 0.9rem;">United Kingdom • W1K</div>
+                <div style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">European Desk: Zurich, Switzerland</div>
+              </div>
+
+              <div>
+                <h4 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem;">
+                  // DIRECT COMMUNICATIONS
+                </h4>
+                <div style="color: var(--text-secondary); font-size: 0.9rem;">executive@valterragroup.com</div>
+                <div style="color: var(--text-secondary); font-size: 0.9rem;">+27 (0) 11 884 0000 / +44 20 7946 0900</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel" style="padding: 2.5rem;">
+            <h3 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 0.5rem;">
+              Executive Inquiry Brief
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.75rem;">
+              Your submission is encrypted and reviewed strictly under non-disclosure obligations.
+            </p>
+
+            <form id="valterra-contact-form">
+              <div style="display: grid; grid-template-columns: 1fr; gap: 1.25rem;" class="sm-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" class="form-input" placeholder="e.g. Sindi Khumalo" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Corporate Email</label>
+                  <input type="email" class="form-input" placeholder="s.khumalo@enterprise.com" required>
+                </div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: 1fr; gap: 1.25rem;" class="sm-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Organization / Group</label>
+                  <input type="text" class="form-input" placeholder="e.g. Pan-African Capital Corp" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Designated Practice</label>
+                  <select id="contact-division" class="form-select">
+                    <option value="Valterra Group (All Divisions)">Valterra Group (All Divisions)</option>
+                    <option value="Valterra Digital">Valterra Digital</option>
+                    <option value="Valterra Marketing">Valterra Marketing</option>
+                    <option value="Valterra AI">Valterra AI</option>
+                    <option value="Valterra Consulting">Valterra Consulting</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Strategic Project Scope & Objectives</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Outline your requirements or attach the output generated by the Valterra Strategic AI Scoper above..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.95rem;">
+                <span>Submit Executive Engagement Request</span>
+              </button>
+
+              <div id="contact-status-msg" style="display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       INSTITUTIONAL FOOTER
+       ======================================================================== -->
+  <footer class="institutional-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-monogram" style="margin-bottom: 1.25rem;">
+            <div class="brand-emblem">V</div>
+            <div>
+              <span style="font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: 0.04em;">VALTERRA</span>
+              <span style="font-family: var(--font-mono); font-size: 0.68rem; color: var(--accent-gold); letter-spacing: 0.18em; display: block;">GROUP</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; max-width: 320px;">
+            A premier international digital solutions and technology agency uniting digital engineering, performance marketing, sovereign AI, and strategy.
+          </p>
+          <div style="margin-top: 1.5rem;" class="pill-status">
+            <span class="pulse-dot"></span>
+            <span>Cloudflare Edge Network • Operational</span>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.25rem;">
+            Practices
+          </h5>
+          <ul class="footer-links">
+            <li><a href="#divisions" class="footer-link">Valterra Digital</a></li>
+            <li><a href="#divisions" class="footer-link">Valterra Marketing</a></li>
+            <li><a href="#divisions" class="footer-link">Valterra AI</a></li>
+            <li><a href="#divisions" class="footer-link">Valterra Consulting</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.25rem;">
+            Platform
+          </h5>
+          <ul class="footer-links">
+            <li><a href="#ai-scoper" class="footer-link">Strategic AI Scoper</a></li>
+            <li><a href="#case-studies" class="footer-link">Case Studies</a></li>
+            <li><a href="#industries" class="footer-link">Industries Served</a></li>
+            <li><a href="#about" class="footer-link">Corporate Charter</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.25rem;">
+            Governance
+          </h5>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">POPIA & Data Privacy</a></li>
+            <li><a href="#" class="footer-link">Enterprise Information Security</a></li>
+            <li><a href="#" class="footer-link">Non-Disclosure Standards</a></li>
+            <li><a href="#contact" class="footer-link">Investor Relations</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); margin-top: 4rem; padding-top: 2rem; gap: 1rem; font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">
+        <div>
+          &copy; 2026 Valterra Group (Pty) Ltd. All Rights Reserved. South Africa & International.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <span>Johannesburg</span>
+          <span>Cape Town</span>
+          <span>London</span>
+          <span>Zurich</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional API Key Modal (Triggered if testing edge function locally without env vars) -->
+  <div id="api-key-modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(16px); z-index: 200; align-items: center; justify-content: center; padding: 1.5rem;">
+    <div class="glass-panel" style="max-width: 480px; width: 100%; padding: 2rem; border-color: rgba(216, 201, 163, 0.3);">
+      <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 0.5rem;">Configure Gemini API Key</h3>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+        No Cloudflare secret was detected on this environment. Enter your Google Gemini API key to run live, or click "Continue with Simulated Showcase" to view a high-fidelity demonstration brief.
+      </p>
+      <input type="password" id="custom-api-key-input" class="form-input" placeholder="AIzaSy..." style="margin-bottom: 1.25rem;">
+      <div style="display: flex; gap: 0.75rem; justify-content: flex-end;">
+        <button type="button" id="skip-key-btn" class="btn btn-secondary" style="padding: 0.6rem 1rem; font-size: 0.82rem;">Simulated Showcase</button>
+        <button type="button" id="save-key-btn" class="btn btn-primary" style="padding: 0.6rem 1.25rem; font-size: 0.82rem;">Save & Connect</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/scoper.js"></script>
+</body>
+</html>

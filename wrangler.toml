@@ -1,0 +1,8 @@
+name = "valterra-group"
+compatibility_date = "2026-11-01"
+pages_build_output_dir = "."
+
+[vars]
+ENVIRONMENT = "production"
+# Add your GEMINI_API_KEY via Cloudflare dashboard or:
+# wrangler secret put GEMINI_API_KEY

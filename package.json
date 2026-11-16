@@ -1,0 +1,23 @@
+{
+  "name": "valterra-group-web",
+  "version": "1.0.0",
+  "description": "Official enterprise portal for Valterra Group — Premium Digital Solutions & Technology Agency",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ruby -run -e httpd . -p 3000",
+    "serve": "ruby -run -e httpd . -p 8080",
+    "pages:dev": "npx wrangler pages dev .",
+    "pages:deploy": "npx wrangler pages deploy ."
+  },
+  "keywords": [
+    "valterra-group",
+    "digital-agency",
+    "south-africa",
+    "international",
+    "gemini-ai",
+    "cloudflare-pages"
+  ],
+  "author": "Valterra Group",
+  "license": "UNLICENSED"
+}
